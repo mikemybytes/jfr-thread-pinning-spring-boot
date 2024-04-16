@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: jfr-thread-pinning-spring-boot
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: [ "prometheus" ]
